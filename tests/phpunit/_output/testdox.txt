@@ -1,0 +1,28 @@
+Aluno (Pessoa\Aluno)
+ [x] Get telefone retorna numero completo do aluno
+ [x] Set email
+ [x] Get nome
+ [x] Validar nome
+ [x] Get email
+ [x] Set nome
+ [x] Set nome lanca exception com nome invalido
+ [x] Set telefone
+ [x] Set telefone com telefone nulo
+ [x] Set telefone com telefone invalido
+ [x] Set telefone com ddd invalido
+ [x] Retornar aluno
+
+Email (Contato\Email)
+ [x] Get email retorna email
+ [x] Set email define email valido
+ [x] Set email lanca exception ao informar email invalido
+
+Telefone (Contato\Telefone)
+ [x] Set telefone define um telefone valido
+ [x] Retornar numero completo retorna telefone e ddd
+ [x] Get ddd retorna ddd
+ [x] Set ddd define ddd
+ [x] Get telefone retorna telefone
+ [x] Set telefone lanca exception ao informar telefone invalido
+ [x] Set ddd lanca exception ao informar ddd invalido
+
