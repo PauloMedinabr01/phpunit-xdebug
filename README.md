@@ -59,12 +59,28 @@ Rode o comando abaixo para instalar as dependências:
 composer install
 ```
 
-## Instalação
+## Instalação do PHPUNIT
 
 Faça o download do PHPUNIT via composer com o comando:
 
 ```bash
 composer require --dev phpunit/phpunit
+```
+
+## Instalação do PHPStan
+
+Para instalar o PHPStan, você pode rodar o comando:
+
+```bash
+composer require --dev phpstan/phpstan
+```
+
+## Instalação do PHPCODESNIFFER
+
+Para instalar o PHPCODESNIFFER, você pode rodar o comando:
+
+```bash
+composer require --dev squizlabs/php_codesniffer
 ```
 
 ## Instalar o Xdebug
@@ -181,6 +197,22 @@ múltiplos comandos.
 - pipeline: Executa verificações de estilo de código e corrige formatação com o PHPCS e PHPCBF.
 - tests: Executa os testes unitários e gera relatórios de cobertura de código.
 - analyze-all: Executa todas as etapas de análise, verificação de estilo e testes.
+
+## Dashboard de Testes
+
+Voce pode visualizar o dashboard de testes no arquivo `tests/_output/dashboard.html`. Para visualizar o dashboard, você
+pode
+abrir o arquivo em um navegador da web.
+
+<img src="dashboard.png" alt="Dashboard de Testes" />
+
+## Visão Geral dos Testes
+
+<img src="visao_geral.png">
+
+## Testes de Cobertura
+
+<img src="visao_classe.png">
 
 ## Suítes de Teste
 
