@@ -67,6 +67,22 @@ Faça o download do PHPUNIT via composer com o comando:
 composer require --dev phpunit/phpunit
 ```
 
+## Instalar o Xdebug
+
+Para instalar o Xdebug:
+
+```bash
+sudo apt-get install php-xdebug
+```
+
+Para verificar se o Xdebug foi instalado corretamente, você pode rodar o comando:
+
+```bash
+php -m | grep xdebug
+```
+
+Uma mensagem semelhante a `xdebug` deve ser exibida.
+
 ## Configuração do PHPUNIT
 
 Crie um arquivo de configuração chamado `phpunit.xml` na raiz do projeto com o seguinte conteúdo:
@@ -167,6 +183,7 @@ múltiplos comandos.
 - analyze-all: Executa todas as etapas de análise, verificação de estilo e testes.
 
 ## Suítes de Teste
+
 As suítes de teste são agrupamentos de testes que podem ser definidos no arquivo phpunit.xml. Isso permite organizar os
 testes em categorias e executar grupos específicos conforme necessário.
 
