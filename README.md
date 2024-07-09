@@ -232,3 +232,12 @@ Esta configuração informa ao PHPUnit para executar todos os testes localizados
 
 Espero que essas informações adicionais sejam úteis para entender melhor o processo de configuração e execução dos
 testes no seu projeto!
+
+## Links Úteis
+
+- Documentação do Composer. [Composer](https://getcomposer.org/)
+- Documentação do PHP. [PHP](https://www.php.net/)
+- Documentação do Xdebug. [Xdebug](https://xdebug.org/)
+- Documentação do PHPUnit. [PHPUnit](https://phpunit.de/index.html)
+- Documentação do PHPStan. [PHPStan](https://phpstan.org/user-guide/getting-started)
+- Documentação do PHPCodeSniffer. [PHPCodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
